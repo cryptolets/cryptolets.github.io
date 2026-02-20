@@ -8,13 +8,13 @@ baseurl: ""                   # Only required if your site is in a directory e.g
 # SOCIAL PROFILES
 social:
   email: name@example.com
-  bluesky: bluesky_username.bsky.social
-  mastodon: https://mastodon.social/@mastodon_username
-  twitter: twitter_username
-  linkedin: https://linkedin.com/company/project_name/
-  facebook: https://facebook.com/groups/group_id/
-  github: github_username               # Can also be a github_username/repository
-  disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
+  # bluesky: bluesky_username.bsky.social
+  # mastodon: https://mastodon.social/@mastodon_username
+  # twitter: twitter_username
+  # linkedin: https://linkedin.com/company/project_name/
+  # facebook: https://facebook.com/groups/group_id/
+  # github: github_username               # Can also be a github_username/repository
+  # disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
 
 # THEME SETTINGS (ALL OPTIONAL)
 posts_on_home: 0                        # Show x number of latest posts on homepage, can be 0
