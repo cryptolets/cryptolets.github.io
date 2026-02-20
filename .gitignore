@@ -1,15 +1,11 @@
-_site
+*.gem
 .bundle
-.DS_store
-.idea
-.jekyll-cache
-.jekyll-metadata
-.ruby-version
 .sass-cache
-.tweet-cache
-.venv
-assets/libs/
-assets/rendercv/rendercv_output/*.typ
+_site
 Gemfile.lock
-node_modules/
-vendor
+
+# npm
+node_modules
+
+# Mac OS X
+.DS_Store

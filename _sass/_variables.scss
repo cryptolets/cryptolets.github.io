@@ -1,52 +1,72 @@
-/*******************************************************************************
- * Variables used throughout the theme.
- * To adjust anything, simply edit the variables below and rebuild the theme.
- ******************************************************************************/
+// Theme overrides for Bootstrap variables
+// 
+// Compare with bootstrap/_variables.scss
+// Only include variables that are overwritten
+// or variables (indicated with !default) that are referred by other variables.
 
-@use "sass:color";
+// Color system
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$primary: $custom_link_color;
+$secondary: $custom_banner_color;
+$footer: $custom_footer_color; // Theme variable
 
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
+// Characters which are escaped by the escape-svg function
+// Options
+// Prefix for :root CSS variables
+// Gradient
+// Spacing
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+$spacer: 1rem !default;
 
-// Theme colors
+// Position
+// Body
+// Utilities maps
+// Links
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$link-decoration: none;
+$link-hover-decoration: underline;
 
-// Font awesome location
-$fa-font-path: "../webfonts";
+// Paragraphs
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Container padding
+// Components
+// Typography
 
-// Back To Top button config
-$back-to-top-z-index: 10;
-$back-to-top-bottom: 30px;
-$back-to-top-right: 30px;
-$back-to-top-diameter: 40px;
-$back-to-top-height: $back-to-top-diameter;
-$back-to-top-width: $back-to-top-diameter;
+$font-family-base: "Roboto", sans-serif;
 
-// Max width default
-$max-content-width: 930px !default;
+$headings-margin-bottom: $spacer;
+
+// Tables
+// Buttons + Forms
+// Buttons
+// Forms
+// Form validation
+// Z-index master list
+// Navs
+// Navbar
+// Dropdowns
+// Pagination
+// Placeholders
+// Cards
+// Accordion
+// Tooltips
+// Popovers
+// Toasts
+// Badges
+
+$badge-font-weight: normal;
+
+// Modals
+// Alerts
+// Progress bars
+// List group
+// Image thumbnails
+// Figures
+// Breadcrumbs
+// Carousel
+// Spinners
+// Close
+// Offcanvas
+// Code

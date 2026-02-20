@@ -1,35 +1,38 @@
-/*******************************************************************************
- * Footer styles
- ******************************************************************************/
+// Footer
 
-footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
-
-  .container {
-    color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
-    text-align: center;
-  }
-
-  a {
-    color: var(--global-footer-link-color);
-
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
-    }
-  }
-}
-
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+body > footer {
+  background-color: $footer;
+  border-top: 5px solid lighten($footer, 50);
+  color: lighten($footer, 50);
   font-size: 0.9rem;
+  padding: $grid-gutter-width / 2 0;
 
   .container {
-    text-align: center;
+    margin-top: 1rem;
   }
+
+  a,
+  a:hover,
+  a:visited {
+    color: $white;
+  }
+
+  // Font Awesome icons
+  .fa-inverse {
+    color: $footer;
+  }
+  .fa-ul {
+    margin-left: 1.5rem;
+  }
+
+  // License notice
+  .small.mt-2 {
+    p {
+      display: inline;
+
+      & + p:before {
+        content: " — ";
+      }
+    }
+  } 
 }
