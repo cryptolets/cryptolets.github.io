@@ -5,4 +5,4 @@ description: The Cryptolets team
 permalink: /people/
 ---
 
-Add team members in `_data/team.yml`.
+<!-- Add team members in `_data/team.yml`. -->
