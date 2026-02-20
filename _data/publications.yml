@@ -33,17 +33,59 @@
   arxiv: 2508.16738
   authors:  
     - Alhad Daftardar
-    - Jianqiao Mo 
+    - Jianqiao Mo
     - Joey Ah-kiow
     - Benedikt Bünz
     - Siddharth Garg
     - Brandon Reagen
   title:    zkPHIRE - A Programmable Accelerator for ZKPs over HIgh-degRee, Expressive Gates
   journal:  IEEE International Symposium on High-Performance Computer Architecture (HPCA)
-  # citation: 10.1093/nar/gkab597
   year:     2026
   url: https://arxiv.org/abs/2508.16738
-  abstract: zkPHIRE
-  # badges:
-  #   - person=Dominic_Bazzano
-  #   - resource=cell_protocol
+
+- id: MTU_2025
+  date:  2025-10-19
+  doi:  10.1145/3768725.3768737
+  arxiv: 2507.16793
+  authors:
+    - Jianqiao Mo
+    - Alhad Daftardar
+    - Joey Ah-kiow
+    - Kaiyue Guo
+    - Benedikt Bünz
+    - Siddharth Garg
+    - Brandon Reagen
+  title:    MTU - The Multifunction Tree Unit for Accelerating Zero-Knowledge Proofs
+  journal:  The 14th International Workshop on Hardware and Architectural Support for Security and Privacy (HASP)
+  year:     2025
+  url: https://arxiv.org/abs/2507.16793
+
+- id: zkSpeed_2025
+  date:  2025-06-21
+  doi:  10.1145/3695053.3731021
+  arxiv: 2504.06211
+  authors:
+    - Alhad Daftardar
+    - Jianqiao Mo
+    - Joey Ah-kiow
+    - Benedikt Bünz
+    - Ramesh Karri
+    - Siddharth Garg
+    - Brandon Reagen
+  title:    Need for zkspeed - Accelerating hyperplonk for zero-knowledge proofs
+  journal:  The 52nd Annual International Symposium on Computer Architecture (ISCA)
+  year:     2025
+  url: https://arxiv.org/abs/2504.06211
+
+- id: szkp_2024
+  date:  2024-10-14
+  doi:  10.1145/3656019.3676898
+  arxiv: 2408.05890
+  authors:
+    - Alhad Daftardar
+    - Brandon Reagen
+    - Siddharth Garg
+  title:    SZKP - A Scalable Accelerator Architecture for Zero-Knowledge Proofs
+  journal:  The 2024 international conference on parallel architectures and compilation techniques
+  year:     2024
+  url: https://arxiv.org/abs/2408.05890
