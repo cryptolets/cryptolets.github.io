@@ -1,0 +1,43 @@
+---
+layout: default
+description: Publications list driven by _data/publications.yml.
+---
+
+{{ content }}
+
+{% assign publications = site.data.publications | sort: "date" | reverse %}
+
+<div class="publications">
+  {% for publication in publications %}
+    <div class="mb-4">
+      <div class="fw-semibold">{{ publication.title }}</div>
+      {% if publication.authors %}
+        <div>{{ publication.authors | join: ", " }}</div>
+      {% endif %}
+      <div>
+        {% if publication.journal %}
+          <span>{{ publication.journal }}</span>
+        {% endif %}
+        {% if publication.citation %}
+          <span>{{ publication.citation }}</span>
+        {% endif %}
+        {% if publication.year %}
+          <span>({{ publication.year }})</span>
+        {% endif %}
+      </div>
+      {% if publication.pmid or publication.pmcid or publication.url %}
+        <div>
+          {% if publication.pmid %}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/{{ publication.pmid }}/" target="_blank" rel="noopener">PubMed</a>
+          {% endif %}
+          {% if publication.pmcid %}
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}/" target="_blank" rel="noopener">PMC</a>
+          {% endif %}
+          {% if publication.url %}
+            <a href="{{ publication.url }}" target="_blank" rel="noopener">Link</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

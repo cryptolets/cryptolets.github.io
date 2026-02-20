@@ -1,7 +1,9 @@
 ---
+layout: publications
 title: Publications
-description: Cryptolets publications and preprints
+subtitle: Research articles and scholarly works
+# banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
 permalink: /publications/
 ---
 
-Add publications here or link to an external bibliography page.
+<!-- Content here would show up above your list of publications -->
