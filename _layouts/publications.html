@@ -25,17 +25,17 @@ description: Publications list driven by _data/publications.yml.
           <span>({{ publication.year }})</span>
         {% endif %}
       </div>
-      {% if publication.pmid or publication.pmcid or publication.url %}
+      {% if publication.doi or publication.arxiv or publication.url %}
         <div>
-          {% if publication.pmid %}
-            <a href="https://pubmed.ncbi.nlm.nih.gov/{{ publication.pmid }}/" target="_blank" rel="noopener">PubMed</a>
-          {% endif %}
-          {% if publication.pmcid %}
-            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}/" target="_blank" rel="noopener">PMC</a>
-          {% endif %}
-          {% if publication.url %}
-            <a href="{{ publication.url }}" target="_blank" rel="noopener">Link</a>
-          {% endif %}
+        {% if publication.doi %}
+          <a href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener">DOI</a>
+        {% endif %}
+        {% if publication.arxiv %}
+          <a href="https://arxiv.org/abs/{{ publication.arxiv }}" target="_blank" rel="noopener">arXiv</a>
+        {% endif %}
+        {% if publication.url %}
+          <a href="{{ publication.url }}" target="_blank" rel="noopener">Link</a>
+        {% endif %}
         </div>
       {% endif %}
     </div>

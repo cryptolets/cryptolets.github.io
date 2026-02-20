@@ -27,41 +27,23 @@
 #   badges:
 #     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
       
-- id: bazzano_2021
-  date:  2021-09-21
-  pmid:  34263309
-  pmcid: null
+- id: zkphire_2026
+  date:  2026-01-31
+  doi:  null
+  arxiv: 2508.16738
   authors:  
-    - Bazzano D
-    - Lomonaco S
-    - Wilson TE
-  title:    Mapping yeast mitotic 5' resection at base resolution reveals the sequence and positional dependence of nucleases in vivo
-  journal:  Nucleic Acids Research
-  citation: 10.1093/nar/gkab597
-  year:     2021
-  url: null
-  abstract: adflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjas adflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjas  
-  badges:
-    - person=Dominic_Bazzano
-    - resource=cell_protocol
-
-- id: park_2020
-  date:  2020-07-15
-  pmid:  34181717
-  pmcid: PMC8287918
-  authors:  
-    - Park SH
-    - Bennett-Baker P
-    - Ahmed S
-    - Arlt MF
-    - Ljungman M
-    - Glover TW
-    - Wilson TE
-  title:    Locus-specific transcription silencing at the FHIT gene suppresses replication stress-induced copy number variant formation and associated replication delay
-  journal:  Nucleic Acids Research
-  citation: 49(13):7507-7524  
-  year:     2020
-  url: null 
-  badges: 
-    - funding=My_R01
-    - project=project1
+    - Alhad Daftardar
+    - Jianqiao Mo 
+    - Joey Ah-kiow
+    - Benedikt Bünz
+    - Siddharth Garg
+    - Brandon Reagen
+  title:    zkPHIRE - A Programmable Accelerator for ZKPs over HIgh-degRee, Expressive Gates
+  journal:  IEEE International Symposium on High-Performance Computer Architecture (HPCA)
+  # citation: 10.1093/nar/gkab597
+  year:     2026
+  url: https://arxiv.org/abs/2508.16738
+  abstract: zkPHIRE
+  # badges:
+  #   - person=Dominic_Bazzano
+  #   - resource=cell_protocol
