@@ -2,9 +2,8 @@
 # in addition to information enumerated here, a PI may _optionally_ choose to 
 # create expanded publication information in _publications/<id>.md
 #-------------------------------------------------------------------------------------
-# Publications are ordered on the Publications page as follows:
-#   descending by year, then descending by pmid
-# thus, newest articles appear first, PubMed articles appear before books or other items
+# Publications are ordered on the Publications page by descending date.
+# Use `section: prior_relevant_work` to list items under "Prior Relevant Work".
 #-------------------------------------------------------------------------------------
 # the 'id' field is the unique identifier used for tagging and md files
 #-------------------------------------------------------------------------------------
@@ -13,8 +12,8 @@
 
 # - id: bazzano_2021 # required, must be a string (e.g., quote a pmid as "00000000")
 #   date: 2021-09-30 # the day the publication appeared
-#   pmid:  00000000   # e.g., 00000000, can be missing or null
-#   pmcid: PMC0000000 # e.g., PMC0000000, can be missing or null  
+#   doi:   10.1145/0000000.0000000 # can be missing or null
+#   arxiv: 2401.01234 # can be missing or null
 #   authors:  
 #     - Last AA
 #     - Lastt B
@@ -44,6 +43,7 @@
   url: https://arxiv.org/abs/2508.16738
 
 - id: MTU_2025
+  section: prior_relevant_work
   date:  2025-10-19
   doi:  10.1145/3768725.3768737
   arxiv: 2507.16793
@@ -61,6 +61,7 @@
   url: https://arxiv.org/abs/2507.16793
 
 - id: zkSpeed_2025
+  section: prior_relevant_work
   date:  2025-06-21
   doi:  10.1145/3695053.3731021
   arxiv: 2504.06211
@@ -78,6 +79,7 @@
   url: https://arxiv.org/abs/2504.06211
 
 - id: szkp_2024
+  section: prior_relevant_work
   date:  2024-10-14
   doi:  10.1145/3656019.3676898
   arxiv: 2408.05890

@@ -5,10 +5,12 @@ description: Publications list driven by _data/publications.yml.
 
 {{ content }}
 
-{% assign publications = site.data.publications | sort: "date" | reverse %}
+{% assign publications = site.data.publications %}
+{% assign main_publications = publications | where_exp: "p", "p.section != 'prior_relevant_work'" | sort: "date" | reverse %}
+{% assign prior_relevant_work = publications | where: "section", "prior_relevant_work" | sort: "date" | reverse %}
 
 <div class="publications">
-  {% for publication in publications %}
+  {% for publication in main_publications %}
     <div class="mb-4">
       <div class="fw-semibold">{{ publication.title }}</div>
       {% if publication.authors %}
@@ -40,4 +42,40 @@ description: Publications list driven by _data/publications.yml.
       {% endif %}
     </div>
   {% endfor %}
+
+  {% if prior_relevant_work and prior_relevant_work.size > 0 %}
+    <h2 class="mt-5">Prior Relevant Work</h2>
+    {% for publication in prior_relevant_work %}
+      <div class="mb-4">
+        <div class="fw-semibold">{{ publication.title }}</div>
+        {% if publication.authors %}
+          <div>{{ publication.authors | join: ", " }}</div>
+        {% endif %}
+        <div>
+          {% if publication.journal %}
+            <span>{{ publication.journal }}</span>
+          {% endif %}
+          {% if publication.citation %}
+            <span>{{ publication.citation }}</span>
+          {% endif %}
+          {% if publication.year %}
+            <span>({{ publication.year }})</span>
+          {% endif %}
+        </div>
+        {% if publication.doi or publication.arxiv or publication.url %}
+          <div>
+          {% if publication.doi %}
+            <a href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener">DOI</a>
+          {% endif %}
+          {% if publication.arxiv %}
+            <a href="https://arxiv.org/abs/{{ publication.arxiv }}" target="_blank" rel="noopener">arXiv</a>
+          {% endif %}
+          {% if publication.url %}
+            <a href="{{ publication.url }}" target="_blank" rel="noopener">Link</a>
+          {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endif %}
 </div>
