@@ -1,29 +1,26 @@
 ﻿---
 title: Cryptolets Tutorial at ISCA 2026
-# date: 2026-03-03
+date: 2026-06-27
 categories: tutorial
 ---
-
-## Cryptolets: Building a Community and Open-Source Hardware Repository for Cryptographic Computing
+<h2 align="center"><strong>Cryptolets: Building a Community and Open-Source Hardware Repository for Cryptographic Computing</strong></h2>
 
 **Event:** [ISCA 2026](https://iscaconf.org/isca2026/program/workshops.php) Tutorial  
-**Proposed Date:** Saturday afternoon, June 27 2026 (Half day)  
+**Proposed Date:** June 27 2026 (Saturday afternoon, half day)  
 **Location:** ISCA 2026 Conference Venue, Room 301B.
 
-### Abstract
-
-#### What is Cryptolets?
+### What is Cryptolets?
 
 Cryptolets is an NSF CIRC Grand project building an open hardware ecosystem for cryptographic computing (e.g.,
 zero-knowledge proofs and fully homomorphic encryption).
 
-#### Why Cryptolets?
+### Why Cryptolets?
 
 Cryptographic computing enables strong guarantees for privacy, integrity, and verifiability, but today’s
 systems are often too slow and too hard to build. Cryptolets lowers the barrier to entry with reusable
 hardware building blocks, chiplet-aware design flows, and shared evaluation infrastructure.
 
-#### What this tutorial covers
+### What this tutorial covers
 
 - The Cryptolets vision and how to get involved
 - Open-source hardware IP and chiplet-aware design/EDA workflows
@@ -51,4 +48,4 @@ hardware building blocks, chiplet-aware design flows, and shared evaluation infr
 - Tushar Jois, Rosario Gennaro (CUNY)
 
 ---
-For more details, contact the organizers or visit the ISCA 2026 conference website.
+For more details, contact the organizers or visit [ISCA 2026](https://iscaconf.org/isca2026/program/workshops.php).
