@@ -10,8 +10,8 @@ permalink: /speaker-series/
   <a href="https://www.youtube.com/@BAAHLNYU/playlists" target="_blank" rel="noopener">YouTube playlist</a>.
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
-  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+<div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk</h2>
     <p><strong>Speaker:</strong> Prof. <a href="https://engineering.nyu.edu/faculty/ramesh-karri" target="_blank" rel="noopener">Ramesh Karri</a> (NYU)</p>
     <p>
@@ -28,7 +28,7 @@ permalink: /speaker-series/
     <p><a href="https://youtu.be/kAClPrr6XXc?si=CG8gBwbmDMTg1cLC" target="_blank" rel="noopener">Watch on YouTube</a></p>
   </div>
 
-  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk</h2>
     <p><strong>Speaker:</strong> Prof. Brandon Reagen (NYU)</p>
     <p><strong>Title:</strong> The Cryptolets Program with Applications to Point Addition</p>

@@ -4,8 +4,8 @@ description: Tutorials hosted by Cryptolets
 permalink: /tutorials/
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
-  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+<div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">
       <a href="{{ '/blog/2026/cryptolets-tutorial-isca2026/' | relative_url }}">Cryptolets Tutorial @ ISCA 2026</a>
     </h2>
