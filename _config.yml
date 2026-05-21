@@ -7,7 +7,7 @@ baseurl: ""                   # Only required if your site is in a directory e.g
 
 # SOCIAL PROFILES
 social:
-  email: name@example.com
+  email: warren.savage@rocksavage.tech
   # bluesky: bluesky_username.bsky.social
   # mastodon: https://mastodon.social/@mastodon_username
   # twitter: twitter_username

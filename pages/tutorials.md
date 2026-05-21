@@ -14,7 +14,7 @@ permalink: /tutorials/
       <strong>Date:</strong> June 27, 2026<br>
       <strong>Location:</strong> Raleigh, USA<br>
       <strong>Hosted with:</strong>
-      <a href="https://iscaconf.org/isca2026" target="_blank" rel="noopener">ISCA 2026</a>
+      <a href="https://iscaconf.org/isca2026/program/workshops.php" target="_blank" rel="noopener">ISCA 2026</a>
     </p>
   </div>
 
