@@ -10,9 +10,24 @@ permalink: /speaker-series/
   <a href="https://www.youtube.com/@BAAHLNYU/playlists" target="_blank" rel="noopener">YouTube playlist</a>.
 </div>
 
+
+<div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <h2 style="margin-top: 0;">Speaker Series Talk 02</h2>
+    <p><strong>Speaker:</strong> <a href="https://engineering.nyu.edu/faculty/brandon-reagen" target="_blank" rel="noopener">Prof. Brandon Reagen (NYU)</p>
+    <p><strong>Title:</strong> The Cryptolets Program with Applications to Point Addition</p>
+    <p><strong>Date:</strong> May 13, 2026 @ 3:00 PM EDT</p>
+    <p>
+      <strong>Abstract:</strong>
+      Cryptographic computing is changing what we can compute and how we think about data sharing. Methods including fully homomorphic encryption and zero-knowledge proofs have gained attention and are starting to be deployed, but high performance overheads still limit ubiquity. Cryptolets supports this growing area by developing an open-source hardware IP repository spanning modular multipliers to full accelerators such as NTT and MSM units. The program also goes beyond an IP library by building open-source chiplet interfaces for scale-out acceleration and tightly integrating formal verification to prove design correctness. This talk reviews those efforts and highlights early library developments for point addition and MSM, which are commonly used in ZKPs.
+    </p>
+    <p><a href="https://youtu.be/np_Z5H1KjkQ?si=JFOV6CxZOn2ttT0A" target="_blank" rel="noopener">Watch on YouTube</a></p>
+  </div>
+</div>
+
+
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <h2 style="margin-top: 0;">Speaker Series Talk</h2>
+    <h2 style="margin-top: 0;">Speaker Series Talk 01</h2>
     <p><strong>Speaker:</strong> Prof. <a href="https://engineering.nyu.edu/faculty/ramesh-karri" target="_blank" rel="noopener">Ramesh Karri</a> (NYU)</p>
     <p>
       <strong>Title:</strong>
@@ -27,16 +42,3 @@ permalink: /speaker-series/
     </p>
     <p><a href="https://youtu.be/kAClPrr6XXc?si=CG8gBwbmDMTg1cLC" target="_blank" rel="noopener">Watch on YouTube</a></p>
   </div>
-
-  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <h2 style="margin-top: 0;">Speaker Series Talk</h2>
-    <p><strong>Speaker:</strong> Prof. Brandon Reagen (NYU)</p>
-    <p><strong>Title:</strong> The Cryptolets Program with Applications to Point Addition</p>
-    <p><strong>Date:</strong> May 13, 2026 @ 3:00 PM EDT</p>
-    <p>
-      <strong>Abstract:</strong>
-      Cryptographic computing is changing what we can compute and how we think about data sharing. Methods including fully homomorphic encryption and zero-knowledge proofs have gained attention and are starting to be deployed, but high performance overheads still limit ubiquity. Cryptolets supports this growing area by developing an open-source hardware IP repository spanning modular multipliers to full accelerators such as NTT and MSM units. The program also goes beyond an IP library by building open-source chiplet interfaces for scale-out acceleration and tightly integrating formal verification to prove design correctness. This talk reviews those efforts and highlights early library developments for point addition and MSM, which are commonly used in ZKPs.
-    </p>
-    <p><a href="https://youtu.be/np_Z5H1KjkQ?si=JFOV6CxZOn2ttT0A" target="_blank" rel="noopener">Watch on YouTube</a></p>
-  </div>
-</div>
