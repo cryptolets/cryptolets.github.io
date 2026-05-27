@@ -12,6 +12,16 @@ permalink: /speaker-series/
 
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <h2 style="margin-top: 0;">Speaker Series Talk 03</h2>
+    <p><strong>Speaker:</strong> <a href="https://austinrovin.ski" target="_blank" rel="noopener">Prof. Austin Rovinski</a> (NYU)</p>
+    <p><strong>Title:</strong> An Automated Interconnect Modeling Framework for Rapid Cryptolet Design Space Exploration</p>
+    <p><strong>Date:</strong> June 3, 2026 @ 3:00 PM EDT</p>
+    <p>
+      <strong>Abstract:</strong>
+      State-of-the-art cryptographic hardware accelerators often require a huge amount of silicon area, sometimes exceeding what can fit on a single chip. This motivates chiplet-based systems, where multiple chips are tightly integrated in one package instead of relying on one large die. In this talk, Austin Rovinski will present recent work on an automated interconnect modeling framework that simplifies chiplet interconnect modeling and enables rapid, system-level design space exploration for cryptographic chiplet systems, or cryptolets. The talk will also include a sneak-peek demo of the framework ahead of its open-source release next month.
+    </p>
+  </div>
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk 02</h2>
     <p><strong>Speaker:</strong> <a href="https://engineering.nyu.edu/faculty/brandon-reagen" target="_blank" rel="noopener">Prof. Brandon Reagen</a> (NYU)</p>
     <p><a href="https://youtu.be/np_Z5H1KjkQ?si=JFOV6CxZOn2ttT0A" target="_blank" rel="noopener">Watch on YouTube</a></p>
