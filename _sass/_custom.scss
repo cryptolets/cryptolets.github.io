@@ -89,8 +89,8 @@
   border-top: 4px solid #00629b;
   border-radius: 0;
   box-shadow: 0 0.25rem 0.75rem rgba(0, 98, 155, 0.08);
-  flex: 0 0 calc((100% - 1.5rem) * 0.78);
-  min-width: 26rem;
+  flex: 0 0 calc((100% - 3rem) / 2.5);
+  min-width: 18rem;
   scroll-snap-align: start;
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
