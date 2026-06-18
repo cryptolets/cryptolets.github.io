@@ -52,7 +52,7 @@ permalink: /
 
   <div class="swiper card-carousel swiper-initialized swiper-horizontal swiper-backface-hidden cryptolets-card-carousel">
     <div class="cryptolets-card-track">
-      <div class="swiper-slide card cryptolets-pillar-card">
+      <div class="swiper-slide card swiper-slide-active cryptolets-pillar-card">
         <div class="card-body">
           <h3 class="h5 card-title">Open Hardware IP</h3>
           <p class="card-text">Reusable cryptographic building blocks for modular arithmetic, point operations, NTT-style kernels, and related accelerator components.</p>
@@ -95,7 +95,9 @@ permalink: /
     controls.forEach(function (control) {
       control.addEventListener("click", function () {
         var direction = control.getAttribute("data-cryptolets-scroll") === "prev" ? -1 : 1;
-        var scrollAmount = Math.min(track.clientWidth * 0.85, 560);
+        var firstCard = track.querySelector(".cryptolets-pillar-card");
+        var gap = 24;
+        var scrollAmount = firstCard ? firstCard.getBoundingClientRect().width + gap : track.clientWidth * 0.9;
         track.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
       });
     });
