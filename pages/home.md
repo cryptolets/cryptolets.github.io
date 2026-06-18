@@ -44,34 +44,36 @@ permalink: /
   </p>
 </div>
 
-<div class="swiper card-carousel swiper-initialized swiper-horizontal swiper-backface-hidden cryptolets-card-carousel mt-4">
-  <div class="row cards">
-    <div class="col-md-6 col-lg-3">
-      <div class="swiper-slide card cryptolets-pillar-card h-100">
+<div class="cryptolets-card-section mt-4">
+  <div class="navigation-wrapper" aria-label="Program pillar navigation">
+    <button class="cryptolets-card-nav" type="button" data-cryptolets-scroll="prev" aria-label="Previous program pillar">&lsaquo;</button>
+    <button class="cryptolets-card-nav" type="button" data-cryptolets-scroll="next" aria-label="Next program pillar">&rsaquo;</button>
+  </div>
+
+  <div class="swiper card-carousel swiper-initialized swiper-horizontal swiper-backface-hidden cryptolets-card-carousel">
+    <div class="cryptolets-card-track">
+      <div class="swiper-slide card cryptolets-pillar-card">
         <div class="card-body">
           <h3 class="h5 card-title">Open Hardware IP</h3>
           <p class="card-text">Reusable cryptographic building blocks for modular arithmetic, point operations, NTT-style kernels, and related accelerator components.</p>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="swiper-slide card cryptolets-pillar-card h-100">
+
+      <div class="swiper-slide card cryptolets-pillar-card">
         <div class="card-body">
           <h3 class="h5 card-title">Design Exploration</h3>
           <p class="card-text">Scripts and sweep flows for comparing architecture choices across performance, area, implementation targets, and design constraints.</p>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="swiper-slide card cryptolets-pillar-card h-100">
+
+      <div class="swiper-slide card cryptolets-pillar-card">
         <div class="card-body">
           <h3 class="h5 card-title">Verification</h3>
           <p class="card-text">A focus on correctness and reproducibility, connecting cryptographic hardware generation with testing, analysis, and future formal methods.</p>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="swiper-slide card cryptolets-pillar-card h-100">
+
+      <div class="swiper-slide card cryptolets-pillar-card">
         <div class="card-body">
           <h3 class="h5 card-title">Community</h3>
           <p class="card-text">Talks, tutorials, workshops, and shared resources for researchers working on cryptographic hardware and secure computing systems.</p>
@@ -80,6 +82,25 @@ permalink: /
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var track = document.querySelector(".cryptolets-card-track");
+    var controls = document.querySelectorAll("[data-cryptolets-scroll]");
+
+    if (!track || controls.length === 0) {
+      return;
+    }
+
+    controls.forEach(function (control) {
+      control.addEventListener("click", function () {
+        var direction = control.getAttribute("data-cryptolets-scroll") === "prev" ? -1 : 1;
+        var scrollAmount = Math.min(track.clientWidth * 0.85, 560);
+        track.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
+      });
+    });
+  });
+</script>
 
 <div class="mt-4">
   <h2>What We Are Building</h2>
@@ -95,6 +116,6 @@ permalink: /
   <h2>Reference</h2>
   <p>
     Cryptolets was originally supported through
-    <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2450539" target="_blank" rel="noopener">NSF Award #2450539</a>.
+    <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2450539" target="_blank" rel="noopener">NSF Award</a>.
   </p>
 </div>
