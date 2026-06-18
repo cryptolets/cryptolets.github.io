@@ -4,33 +4,61 @@
 
 .cryptolets-involved-band {
   align-items: center;
-  background: #eef5fb;
-  border-left: 4px solid #1f4f7a;
-  border-radius: 8px;
+  background: #f3f8fb;
+  border-top: 4px solid #00629b;
+  border-radius: 0;
   display: flex;
+  flex-direction: column;
   gap: 2rem;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1.5rem;
+  text-align: center;
   width: 100%;
 }
 
 .cryptolets-involved-links {
   display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 0.35rem;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.cryptolets-involved-links .btn,
+.cryptolets-involved-band .btn,
+.cryptolets-home-actions .btn-outline-primary {
+  border-color: #00629b;
+  color: #00629b;
+}
+
+.cryptolets-involved-links .btn:hover,
+.cryptolets-involved-links .btn:focus,
+.cryptolets-involved-band .btn:hover,
+.cryptolets-involved-band .btn:focus,
+.cryptolets-home-actions .btn-outline-primary:hover,
+.cryptolets-home-actions .btn-outline-primary:focus {
+  background: #00629b;
+  border-color: #00629b;
+  color: #fff;
+}
+
+.cryptolets-card-carousel {
+  overflow: visible;
 }
 
 .cryptolets-pillar-card {
-  border: 1px solid #d9e2ec;
+  background: #fff;
+  border: 1px solid #d8e0e7;
+  border-top: 4px solid #00629b;
   border-radius: 0;
-  box-shadow: 0 0.25rem 1rem rgba(31, 79, 122, 0.08);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 98, 155, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .cryptolets-pillar-card:hover,
 .cryptolets-pillar-card:focus-within {
-  box-shadow: 0 0.75rem 1.5rem rgba(31, 79, 122, 0.14);
+  border-color: #00629b;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 98, 155, 0.16);
   transform: translateY(-2px);
 }
 
@@ -40,12 +68,16 @@
 
 @media (max-width: 767.98px) {
   .cryptolets-involved-band {
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
 
   .cryptolets-involved-links {
     flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .cryptolets-involved-links .btn {
+    width: 100%;
   }
 }

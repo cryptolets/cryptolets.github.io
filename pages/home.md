@@ -14,8 +14,7 @@ permalink: /
     <p>
       Modern privacy-preserving systems, including zero-knowledge proofs, fully homomorphic encryption, and post-quantum cryptography, need fast and trustworthy hardware. Cryptolets develops a shared hardware repository and supporting workflows so researchers and builders can explore cryptographic accelerators from modular arithmetic primitives through larger chiplet-scale systems.
     </p>
-    <div class="d-flex flex-wrap gap-2 mt-3">
-      <a class="btn btn-outline-primary" href="https://github.com/cryptolets/cryptolets" target="_blank" rel="noopener">Explore the GitHub repository</a>
+    <div class="cryptolets-home-actions d-flex flex-wrap justify-content-center gap-2 mt-4">
       <a class="btn btn-outline-primary" href="{{ '/speaker-series/' | relative_url }}">Speaker series</a>
       <a class="btn btn-outline-primary" href="{{ '/tutorials/' | relative_url }}">Tutorials</a>
     </div>
@@ -30,9 +29,8 @@ permalink: /
     </p>
   </div>
   <div class="cryptolets-involved-links">
-    <a href="https://github.com/cryptolets/cryptolets" target="_blank" rel="noopener">GitHub: cryptolets/cryptolets</a>
-    <a href="https://groups.google.com/u/1/g/cryptolets" target="_blank" rel="noopener">Cryptolets Google Group Subscription</a>
-    <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2450539" target="_blank" rel="noopener">NSF award information</a>
+    <a class="btn btn-outline-primary" href="https://github.com/cryptolets/cryptolets" target="_blank" rel="noopener">GitHub Repository</a>
+    <a class="btn btn-outline-primary" href="https://groups.google.com/u/1/g/cryptolets" target="_blank" rel="noopener">Subscribe Google Group</a>
   </div>
 </div>
 
@@ -46,36 +44,38 @@ permalink: /
   </p>
 </div>
 
-<div class="row cards mt-4">
-  <div class="col-md-6 col-lg-3">
-    <div class="swiper-slide card cryptolets-pillar-card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title">Open Hardware IP</h3>
-        <p class="card-text">Reusable cryptographic building blocks for modular arithmetic, point operations, NTT-style kernels, and related accelerator components.</p>
+<div class="swiper card-carousel swiper-initialized swiper-horizontal swiper-backface-hidden cryptolets-card-carousel mt-4">
+  <div class="row cards">
+    <div class="col-md-6 col-lg-3">
+      <div class="swiper-slide card cryptolets-pillar-card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">Open Hardware IP</h3>
+          <p class="card-text">Reusable cryptographic building blocks for modular arithmetic, point operations, NTT-style kernels, and related accelerator components.</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <div class="swiper-slide card cryptolets-pillar-card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title">Design Exploration</h3>
-        <p class="card-text">Scripts and sweep flows for comparing architecture choices across performance, area, implementation targets, and design constraints.</p>
+    <div class="col-md-6 col-lg-3">
+      <div class="swiper-slide card cryptolets-pillar-card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">Design Exploration</h3>
+          <p class="card-text">Scripts and sweep flows for comparing architecture choices across performance, area, implementation targets, and design constraints.</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <div class="swiper-slide card cryptolets-pillar-card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title">Verification</h3>
-        <p class="card-text">A focus on correctness and reproducibility, connecting cryptographic hardware generation with testing, analysis, and future formal methods.</p>
+    <div class="col-md-6 col-lg-3">
+      <div class="swiper-slide card cryptolets-pillar-card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">Verification</h3>
+          <p class="card-text">A focus on correctness and reproducibility, connecting cryptographic hardware generation with testing, analysis, and future formal methods.</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <div class="swiper-slide card cryptolets-pillar-card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title">Community</h3>
-        <p class="card-text">Talks, tutorials, workshops, and shared resources for researchers working on cryptographic hardware and secure computing systems.</p>
+    <div class="col-md-6 col-lg-3">
+      <div class="swiper-slide card cryptolets-pillar-card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">Community</h3>
+          <p class="card-text">Talks, tutorials, workshops, and shared resources for researchers working on cryptographic hardware and secure computing systems.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -89,4 +89,12 @@ permalink: /
     <li>Design-space exploration tools for evaluating accelerators across FPGA and ASIC-oriented workflows.</li>
     <li>Community resources that make cryptographic hardware easier to learn, reproduce, and extend.</li>
   </ul>
+</div>
+
+<div class="mt-4">
+  <h2>Reference</h2>
+  <p>
+    Cryptolets was originally supported through
+    <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2450539" target="_blank" rel="noopener">NSF Award #2450539</a>.
+  </p>
 </div>
