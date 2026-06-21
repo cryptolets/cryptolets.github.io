@@ -2,7 +2,7 @@
 layout: home
 title: Cryptolets
 description: Open-source cryptographic hardware for secure computing
-background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
+background: /assets/theme/images/cryptolets_header.png
 permalink: /
 ---
 
@@ -16,7 +16,7 @@ permalink: /
     </p>
     <div class="cryptolets-home-actions d-flex flex-wrap justify-content-center gap-2 mt-4">
       <a class="btn btn-outline-primary" href="{{ '/speaker-series/' | relative_url }}">Speaker series</a>
-      <a class="btn btn-outline-primary" href="{{ '/tutorials/' | relative_url }}">Tutorials</a>
+      <a class="btn btn-outline-primary" href="{{ '/community-building/' | relative_url }}">Community Building</a>
     </div>
   </div>
 </div>

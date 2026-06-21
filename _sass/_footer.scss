@@ -31,7 +31,7 @@ body > footer {
       display: inline;
 
       & + p:before {
-        content: " — ";
+        content: " \2014 ";
       }
     }
   } 

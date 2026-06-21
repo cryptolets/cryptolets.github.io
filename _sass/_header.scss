@@ -3,7 +3,7 @@
 .header {
   // Mimics Bootstrap v4 .jumbotron
   // background-image: set in page front matter
-  background-position: center;
+  background-position: center 25%; // move focal point down (lower % = image shifts down)
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0; // Should always be square, independent from $enable-rounded
@@ -30,6 +30,14 @@
     position: absolute;
     top: 0;
     width: 100%;
+    backdrop-filter: blur(1px); // blur the background image (text stays sharp)
+    -webkit-backdrop-filter: blur(1px);
+  }
+
+  // Stronger blur on non-home pages
+  &.bg-image-blur-more:before {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
   }
 
   a {

@@ -48,6 +48,9 @@
   {% else %}
     {% assign background = page.background %}
   {% endif %}
+  {% unless background %}
+    {% assign background = '/assets/theme/images/cryptolets_header.png' %}
+  {% endunless %}
   {% if background %}
     <meta property="og:image" content="{{ background | absolute_url }}">
   {% endif %}
