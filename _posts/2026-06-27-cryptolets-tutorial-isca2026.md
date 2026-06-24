@@ -11,22 +11,7 @@ background: /assets/theme/images/cryptolets_header.png
 **Date:** June 27, 2026 (Saturday afternoon, half day)  
 **Location:** ISCA 2026 Conference Venue, Room 301B
 
-### What is Cryptolets?
-
-Cryptolets is an NSF CIRC Grand project building an open hardware ecosystem for cryptographic computing, including zero-knowledge proofs and fully homomorphic encryption.
-
-### Why Cryptolets?
-
-Cryptographic computing enables strong guarantees for privacy, integrity, and verifiability, but current systems are often too slow and too hard to build. Cryptolets lowers the barrier to entry with reusable hardware building blocks, chiplet-aware design flows, and shared evaluation infrastructure.
-
-### What this tutorial covers
-
-- The Cryptolets vision and how to get involved
-- Open-source hardware IP and chiplet-aware design and EDA workflows
-- Benchmarking and verification infrastructure for reproducible comparisons
-- Modular, extensible accelerators rather than one-off bespoke designs
-
-### Schedule
+<h3 style="margin-top: 2rem; margin-bottom: 2rem;">Schedule</h3>
 
 <div class="col-md-12">
 <table class="table table-hover" style="width: 100%;">
@@ -106,7 +91,22 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 </table>
 </div>
 
-### Speaker Abstracts
+<h3 style="margin-top: 2rem; margin-bottom: 2rem;">What is Cryptolets?</h3>
+
+Cryptolets is an NSF CIRC Grand project building an open hardware ecosystem for cryptographic computing, including zero-knowledge proofs and fully homomorphic encryption.
+
+<h3 style="margin-top: 2rem; margin-bottom: 2rem;">Why Cryptolets?</h3>
+
+Cryptographic computing enables strong guarantees for privacy, integrity, and verifiability, but current systems are often too slow and too hard to build. Cryptolets lowers the barrier to entry with reusable hardware building blocks, chiplet-aware design flows, and shared evaluation infrastructure.
+
+<h3 style="margin-top: 2rem; margin-bottom: 2rem;">What this tutorial covers</h3>
+
+- The Cryptolets vision and how to get involved
+- Open-source hardware IP and chiplet-aware design and EDA workflows
+- Benchmarking and verification infrastructure for reproducible comparisons
+- Modular, extensible accelerators rather than one-off bespoke designs
+
+<h3 style="margin-top: 2rem; margin-bottom: 2rem;">Speaker Abstracts</h3>
 
 <section id="speakers" class="section speakers">
 <div class="container" style="display: flex; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
@@ -166,7 +166,7 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 </div>
 </section>
 
-### Organizers
+<h3 style="margin-top: 2rem; margin-bottom: 2rem;">Organizers</h3>
 
 - Warren Savage (Rocksavage Technology)
 - Brandon Reagen, Siddharth Garg, Austin Rovinski, Ramesh Karri (NYU)
