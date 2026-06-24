@@ -5,7 +5,7 @@ categories: tutorial
 background: /assets/theme/images/cryptolets_header.png
 ---
 
-<h2 align="center"><strong>Cryptolets: Building a Community and Open-Source Hardware Repository for Cryptographic Computing</strong></h2>
+<h2 style="width: 112%; margin: 0 0 1.5rem -6%; text-align: center; line-height: 1.2; font-size: 2.2rem;"><strong>Cryptolets: Building a Community and Open-Source Hardware Repository for Cryptographic Computing</strong></h2>
 
 **Event:** [ISCA 2026](https://iscaconf.org/isca2026/program/workshops.php) Tutorial  
 **Date:** June 27, 2026 (Saturday afternoon, half day)  
@@ -14,12 +14,12 @@ background: /assets/theme/images/cryptolets_header.png
 <h3 style="margin-top: 2rem; margin-bottom: 2rem;">Schedule</h3>
 
 <div class="col-md-12">
-<table class="table table-hover" style="width: 100%;">
+<table class="table table-hover" style="width: 100%; border-radius: 10px; overflow: hidden;">
 <thead class="thead-light">
-<tr>
+<tr style="background-color: #dbeaf7;">
 <th colspan="4" scope="col">Saturday June 27, 2026 <em>(all times are local conference time)</em></th>
 </tr>
-<tr>
+<tr style="background-color: #eef5fb;">
 <th scope="col" style="width: 18%;">Time</th>
 <th scope="col" style="width: 34%;">Title</th>
 <th scope="col" style="width: 32%;">Speaker</th>
@@ -33,10 +33,10 @@ background: /assets/theme/images/cryptolets_header.png
 <td>Brandon Reagen</td>
 <td><a href="#speaker1">Abstract</a></td>
 </tr>
-<tr>
+<tr style="background-color: #f8fbff;">
 <th scope="row">1:30-2:00</th>
-<td>Connecting Cryptolet Chiplets</td>
-<td>Thierry Tambe</td>
+<td>An Open-Source and Synthesizable SystemC UCIe Interface for Connecting Cryptolet Chiplets</td>
+<td>Thierry Tambe and Rishabh Sharad Pomaje</td>
 <td><a href="#speaker2">Abstract</a></td>
 </tr>
 <tr>
@@ -51,7 +51,7 @@ background: /assets/theme/images/cryptolets_header.png
 <td>-</td>
 <td>&nbsp;</td>
 </tr>
-<tr>
+<tr style="background-color: #f8fbff;">
 <th scope="row">3:00-3:30</th>
 <td>A Chiplet Interface Model for System-Level PPA Exploration</td>
 <td>Austin Rovinski</td>
@@ -63,7 +63,7 @@ background: /assets/theme/images/cryptolets_header.png
 <td>Caroline Trippel</td>
 <td><a href="#speaker5">Abstract</a></td>
 </tr>
-<tr>
+<tr style="background-color: #f8fbff;">
 <th scope="row">4:00-4:30</th>
 <td>Code generation for cryptographic kernels using multi-word modular arithmetic</td>
 <td>Naifeng Zhang</td>
@@ -75,7 +75,7 @@ background: /assets/theme/images/cryptolets_header.png
 <td>Warren Savage</td>
 <td><a href="#speaker7">Abstract</a></td>
 </tr>
-<tr>
+<tr style="background-color: #eef8ef;">
 <th scope="row">4:45-5:15</th>
 <td>Demo and question and answer session</td>
 <td>Code and Demo (Alhad Daftardar and Gaurav Kuwar)</td>
@@ -118,8 +118,8 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 
 <div class="container" style="display: flex; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
 <div class="speaker-info" style="flex: 1;">
-<h4 id="speaker2" style="margin-top: 1em; margin-bottom: 0.1em;">Connecting Cryptolet Chiplets</h4>
-<strong>Thierry Tambe:</strong> We will present a library of HLS-synthesizable hardware components to design spec-adherent UCIe controllers for high-performance chiplet-to-chiplet communication as well as CHIPKIT, which is an agile, reusable open-source framework for rapid test chip development.
+<h4 id="speaker2" style="margin-top: 1em; margin-bottom: 0.1em;">An Open-Source and Synthesizable SystemC UCIe Interface for Connecting Cryptolet Chiplets</h4>
+<strong>Thierry Tambe and Rishabh Sharad Pomaje:</strong> Chiplet-based architectures offer a modular path to improved performance, energy efficiency, scalability, and manufacturing yield by enabling heterogeneous systems to be composed from reusable, specialized dies. The Universal Chiplet Interconnect Express (UCIe) standard is a key enabler of this paradigm, providing an open and interoperable die-to-die interface for chiplets from diverse vendors. However, most available UCIe IP remains commercial and closed source. We present an open-source, UCIe 2.0-compliant SystemC prototype for rapid synthesis of UCIe digital controllers and system-level chiplet evaluation. The prototype supports custom, vendor-defined streaming protocols, providing a practical foundation for exploring next-generation modular architectures.
 </div>
 </div>
 
@@ -169,9 +169,16 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 <h3 style="margin-top: 2rem; margin-bottom: 2rem;">Organizers</h3>
 
 - Warren Savage (Rocksavage Technology)
-- Brandon Reagen, Siddharth Garg, Austin Rovinski, Ramesh Karri (NYU)
+- Brandon Reagen (NYU)
+- Siddharth Garg (NYU)
+- Austin Rovinski (NYU)
+- Ramesh Karri (NYU)
 - Caroline Trippel, Thierry Tambe (Stanford)
 - Tushar Jois, Rosario Gennaro (CUNY)
+- Alhad Daftardar (NYU)
+- Gaurav Kuwar (Capital One)
+- Jianqiao Mo (Website Support, NYU)
+
 
 ---
 For more details, contact the organizers or visit [ISCA 2026](https://iscaconf.org/isca2026/program/workshops.php).
