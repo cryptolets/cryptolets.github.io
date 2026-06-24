@@ -17,18 +17,18 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 <div class="col-md-12">
 <table class="table table-hover" style="width: 100%; border-radius: 10px; overflow: hidden;">
 <thead class="thead-light">
-<tr style="background-color: #dbeaf7;">
-<th colspan="4" scope="col">Saturday June 27, 2026 <em>(all times are local conference time)</em></th>
+<tr>
+<th colspan="4" scope="col" style="background-color: #dbeaf7;">Saturday June 27, 2026 <em>(all times are local conference time)</em></th>
 </tr>
-<tr style="background-color: #eef5fb;">
-<th scope="col" style="width: 18%;">Time</th>
-<th scope="col" style="width: 34%;">Title</th>
-<th scope="col" style="width: 32%;">Speaker</th>
-<th scope="col" style="width: 16%;">Details</th>
+<tr>
+<th scope="col" style="width: 18%; background-color: #eef5fb;">Time</th>
+<th scope="col" style="width: 34%; background-color: #eef5fb;">Title</th>
+<th scope="col" style="width: 32%; background-color: #eef5fb;">Speaker</th>
+<th scope="col" style="width: 16%; background-color: #eef5fb;">Details</th>
 </tr>
 </thead>
 <tbody>
-<tr bgcolor="#EBF5FB">
+<tr>
 <th scope="row">1:00-1:30</th>
 <td>Introducing Cryptolets</td>
 <td>Brandon Reagen</td>
@@ -46,11 +46,11 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 <td>David Inyangson</td>
 <td><a href="#speaker3">Abstract</a></td>
 </tr>
-<tr bgcolor="#FEF9E7">
-<th scope="row">2:40-3:00</th>
-<td>Break</td>
-<td>-</td>
-<td>&nbsp;</td>
+<tr>
+<th scope="row" style="background-color: #fef9e7;">2:40-3:00</th>
+<td style="background-color: #fef9e7;">Break</td>
+<td style="background-color: #fef9e7;">-</td>
+<td style="background-color: #fef9e7;">&nbsp;</td>
 </tr>
 <tr style="background-color: #f8fbff;">
 <th scope="row">3:00-3:30</th>
@@ -82,11 +82,11 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 <td>Code and Demo (Alhad Daftardar, Gaurav Kuwar)</td>
 <td><a href="#speaker8">Abstract</a></td>
 </tr>
-<tr bgcolor="#EBF5FB">
-<th scope="row">5:15-5:30</th>
-<td>Conclusion and Networking</td>
-<td>-</td>
-<td>&nbsp;</td>
+<tr>
+<th scope="row" style="background-color: #dbeaf7;">5:15-5:30</th>
+<td style="background-color: #dbeaf7;">Conclusion and Networking</td>
+<td style="background-color: #dbeaf7;">-</td>
+<td style="background-color: #dbeaf7;">&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -183,7 +183,7 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 <div class="container" style="display: flex; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
 <div class="speaker-info" style="flex: 1;">
 <h4 id="speaker8" style="margin-top: 1em; margin-bottom: 0.1em;">Demo and question and answer session</h4>
-<strong>Code and Demo (Alhad Daftardar and Gaurav Kuwar):</strong> Live code demo followed by Q&amp;A.
+<strong>Code and Demo (Alhad Daftardar, Gaurav Kuwar):</strong> Live code demo followed by Q&amp;A.
 </div>
 </div>
 </section>
@@ -196,7 +196,8 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 - Austin Rovinski (NYU)
 - Ramesh Karri (NYU)
 - Caroline Trippel, Thierry Tambe (Stanford)
-- Tushar Jois, Rosario Gennaro (CUNY)
+- Tushar Jois (CUNY)
+- Rosario Gennaro (CUNY)
 - Alhad Daftardar (NYU)
 - Gaurav Kuwar (Capital One)
 - Jianqiao Mo (Website Support, NYU)

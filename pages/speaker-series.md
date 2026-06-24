@@ -7,7 +7,7 @@ permalink: /speaker-series/
 <div style="margin-top: 1rem; padding: 1rem 1.25rem; border-left: 4px solid #1f4f7a; background: #eef5fb; border-radius: 8px;">
   <strong>Interest in cryptographic hardware?</strong> Subscribe to future talks by sending an email to
   <a href="mailto:cryptolets+subscribe@googlegroups.com">cryptolets+subscribe@googlegroups.com</a>. You can also watch past talks on the
-  <a href="https://www.youtube.com/@BAAHLNYU/playlists" target="_blank" rel="noopener">YouTube playlist</a>.
+  <a href="https://www.youtube.com/watch?v=2lh_tB5UqXA&list=PL187zrvJshWlsHwoIWj6_r-GylHd1nMWG&pp=0gcJCeECOCosWNinsAgC" target="_blank" rel="noopener">YouTube playlist</a>.
 </div>
 
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
