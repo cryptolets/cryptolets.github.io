@@ -14,6 +14,7 @@ permalink: /speaker-series/
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk 03</h2>
     <p><strong>Speaker:</strong> <a href="https://austinrovin.ski" target="_blank" rel="noopener">Prof. Austin Rovinski</a> (NYU)</p>
+    <p><a href="https://youtu.be/2lh_tB5UqXA?si=6yEqXNYsla7bnKZo" target="_blank" rel="noopener">Watch on YouTube</a></p>
     <p><strong>Title:</strong> An Automated Interconnect Modeling Framework for Rapid Cryptolet Design Space Exploration</p>
     <p><strong>Date:</strong> June 10, 2026 @ 3:00 PM EDT</p>
     <p><strong>Zoom:</strong> <a href="https://nyu.zoom.us/j/91992508413?pwd=wFQ2ggqLgTamEoM5qK7ULpJZsiUGst.1" target="_blank" rel="noopener">Join the talk on Zoom</a></p>
