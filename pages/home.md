@@ -2,7 +2,7 @@
 layout: home
 title: Cryptolets
 description: Open-source cryptographic hardware for secure computing
-background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
+background: /assets/theme/images/cryptolets_header.png
 permalink: /
 ---
 

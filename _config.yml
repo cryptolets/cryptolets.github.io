@@ -51,6 +51,7 @@ defaults:
       path: ""
     values:
       layout: default                   # Use default.html layout by default for all files
+      background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
   - scope:
       type: posts
     values:
