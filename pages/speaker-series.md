@@ -17,7 +17,6 @@ permalink: /speaker-series/
     <p><a href="https://youtu.be/2lh_tB5UqXA?si=6yEqXNYsla7bnKZo" target="_blank" rel="noopener">Watch on YouTube</a></p>
     <p><strong>Title:</strong> An Automated Interconnect Modeling Framework for Rapid Cryptolet Design Space Exploration</p>
     <p><strong>Date:</strong> June 10, 2026 @ 3:00 PM EDT</p>
-    <p><strong>Zoom:</strong> <a href="https://nyu.zoom.us/j/91992508413?pwd=wFQ2ggqLgTamEoM5qK7ULpJZsiUGst.1" target="_blank" rel="noopener">Join the talk on Zoom</a></p>
     <p>
       <strong>Abstract:</strong>
       State-of-the-art cryptographic hardware accelerators often require a huge amount of silicon area, sometimes exceeding what can fit on a single chip. This motivates chiplet-based systems, where multiple chips are tightly integrated in one package instead of relying on one large die. In this talk, Austin Rovinski will present recent work on an automated interconnect modeling framework that simplifies chiplet interconnect modeling and enables rapid, system-level design space exploration for cryptographic chiplet systems, or cryptolets. The talk will also include a sneak-peek demo of the framework ahead of its open-source release next month.
