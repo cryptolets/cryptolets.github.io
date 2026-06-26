@@ -29,61 +29,61 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 </thead>
 <tbody>
 <tr>
-<th scope="row">1:00-1:30</th>
+<th scope="row">1:30-2:00</th>
 <td>Introducing Cryptolets</td>
 <td>Brandon Reagen</td>
 <td><a href="#speaker1">Abstract</a></td>
 </tr>
 <tr style="background-color: #f8fbff;">
-<th scope="row">1:30-2:00</th>
+<th scope="row">2:00-2:30</th>
 <td>An Open-Source and Synthesizable SystemC UCIe Interface for Connecting Cryptolet Chiplets</td>
 <td>Thierry Tambe, Rishabh Sharad Pomaje</td>
 <td><a href="#speaker2">Abstract</a></td>
 </tr>
 <tr>
-<th scope="row">2:00-2:30</th>
+<th scope="row">2:30-3:00</th>
 <td>Zero Knowledge Proofs</td>
 <td>David Inyangson</td>
 <td><a href="#speaker3">Abstract</a></td>
 </tr>
 <tr>
-<th scope="row" style="background-color: #fef9e7;">2:40-3:00</th>
-<td style="background-color: #fef9e7;">Break</td>
-<td style="background-color: #fef9e7;">-</td>
-<td style="background-color: #fef9e7;">&nbsp;</td>
-</tr>
-<tr style="background-color: #f8fbff;">
 <th scope="row">3:00-3:30</th>
 <td>A Chiplet Interface Model for System-Level PPA Exploration</td>
 <td>Austin Rovinski</td>
 <td><a href="#speaker4">Abstract</a></td>
 </tr>
 <tr>
-<th scope="row">3:30-4:00</th>
+<th scope="row" style="background-color: #fef9e7;">3:30-3:50</th>
+<td style="background-color: #fef9e7;">Break</td>
+<td style="background-color: #fef9e7;">-</td>
+<td style="background-color: #fef9e7;">&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">3:50-4:20</th>
 <td>Automated, Scalable, and End-to-End Formal Hardware Verification</td>
 <td>Caroline Trippel</td>
 <td><a href="#speaker5">Abstract</a></td>
 </tr>
 <tr style="background-color: #f8fbff;">
-<th scope="row">4:00-4:30</th>
+<th scope="row">4:20-4:50</th>
 <td>Code generation for cryptographic kernels using multi-word modular arithmetic</td>
 <td>Naifeng Zhang</td>
 <td><a href="#speaker6">Abstract</a></td>
 </tr>
 <tr>
-<th scope="row">4:30-4:45</th>
+<th scope="row">4:50-5:05</th>
 <td>The Cryptolets Design Challenge</td>
 <td>Warren Savage</td>
 <td><a href="#speaker7">Abstract</a></td>
 </tr>
 <tr style="background-color: #eef8ef;">
-<th scope="row">4:45-5:15</th>
+<th scope="row">5:05-5:35</th>
 <td>Demo and question and answer session</td>
 <td>Code and Demo (Alhad Daftardar, Gaurav Kuwar)</td>
 <td><a href="#speaker8">Abstract</a></td>
 </tr>
 <tr>
-<th scope="row" style="background-color: #dbeaf7;">5:15-5:30</th>
+<th scope="row" style="background-color: #dbeaf7;">5:35-6:00</th>
 <td style="background-color: #dbeaf7;">Conclusion and Networking</td>
 <td style="background-color: #dbeaf7;">-</td>
 <td style="background-color: #dbeaf7;">&nbsp;</td>
