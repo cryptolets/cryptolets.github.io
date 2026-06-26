@@ -60,7 +60,7 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 </tr>
 <tr>
 <th scope="row">3:30-4:00</th>
-<td>Formal Verification</td>
+<td>Automated, Scalable, and End-to-End Formal Hardware Verification</td>
 <td>Caroline Trippel</td>
 <td><a href="#speaker5">Abstract</a></td>
 </tr>
@@ -155,7 +155,7 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 <figure><img style="border-radius: 0%; width: 150px; height: auto; margin-top: 1.8em;" src="https://cs.stanford.edu/people/trippel/img/caroline.jpg" alt="Caroline Trippel" /></figure>
 </div>
 <div class="speaker-info" style="flex: 1;">
-<h4 id="speaker5" style="margin-top: 1em; margin-bottom: 0.1em;">Formal Verification</h4>
+<h4 id="speaker5" style="margin-top: 1em; margin-bottom: 0.1em;">Automated, Scalable, and End-to-End Formal Hardware Verification</h4>
 <strong>Caroline Trippel:</strong> A 2024 Siemens EDA study found that even though verification consumed more than 50% of development resources, critical bugs still escaped to silicon in more than 85% of the studied industrial hardware design projects, indicating that verification is a major bottleneck. This 20-year low in first-silicon success coincides with a near-doubling of projects featuring AI accelerators, reaching 59% since 2022. These findings reflect the proliferation of hardware accelerators whose increasing variety and complexity exacerbate the challenge of traditional verification. This talk will challenge the conventional wisdom that rigorous formal verification is a manual task reserved for experts and introduce new approaches and tools we are developing to automate, scale, and democratize formal hardware verification.
 </div>
 </div>
