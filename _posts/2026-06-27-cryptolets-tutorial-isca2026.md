@@ -79,7 +79,7 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 <tr style="background-color: #eef8ef;">
 <th scope="row">5:05-5:35</th>
 <td>Demo and question and answer session</td>
-<td>Code and Demo (Alhad Daftardar, Gaurav Kuwar)</td>
+<td>Code and Demo (Alhad Daftardar, Gaurav Kuwar, Zhengping Zhu)</td>
 <td><a href="#speaker8">Abstract</a></td>
 </tr>
 <tr>
@@ -183,7 +183,7 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 <div class="container" style="display: flex; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
 <div class="speaker-info" style="flex: 1;">
 <h4 id="speaker8" style="margin-top: 1em; margin-bottom: 0.1em;">Demo and question and answer session</h4>
-<strong>Code and Demo (Alhad Daftardar, Gaurav Kuwar):</strong> Live code demo followed by Q&amp;A.
+<strong>Code and Demo (Alhad Daftardar, Gaurav Kuwar, Zhengping Zhu):</strong> Live code demo followed by Q&amp;A.
 </div>
 </div>
 </section>
@@ -195,7 +195,8 @@ Cryptographic computing enables strong guarantees for privacy, integrity, and ve
 - Siddharth Garg (NYU)
 - Austin Rovinski (NYU)
 - Ramesh Karri (NYU)
-- Caroline Trippel, Thierry Tambe (Stanford)
+- Caroline Trippel (Standford)
+- Thierry Tambe (Stanford)
 - Tushar Jois (CUNY)
 - Rosario Gennaro (CUNY)
 - Alhad Daftardar (NYU)
