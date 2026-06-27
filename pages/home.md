@@ -29,7 +29,7 @@ permalink: /
     </p>
   </div>
   <div class="cryptolets-involved-links">
-    <a class="btn btn-outline-primary" href="https://github.com/cryptolets/cryptolets" target="_blank" rel="noopener">GitHub Repository</a>
+    <a class="btn btn-outline-primary" href="https://github.com/cryptolets/" target="_blank" rel="noopener">GitHub Repository</a>
     <a class="btn btn-outline-primary" href="https://groups.google.com/u/1/g/cryptolets" target="_blank" rel="noopener">Subscribe Google Group</a>
   </div>
 </div>
