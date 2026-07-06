@@ -13,7 +13,7 @@ permalink: /speaker-series/
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk 04</h2>
-    <p><strong>Speaker:</strong> Prof. Rosario Gennaro (CUNY)</p>
+    <p><strong>Speaker:</strong> <a href="https://www.ccny.cuny.edu/profiles/rosario-gennaro" target="_blank" rel="noopener">Prof. Rosario Gennaro</a> (CUNY)</p>
     <p><strong>Title:</strong> Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference</p>
     <p><strong>Date:</strong> July 8, 2026 @ 3:00 PM EDT</p>
     <p>
