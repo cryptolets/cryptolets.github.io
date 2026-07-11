@@ -16,7 +16,7 @@ permalink: /speaker-series/
     <p><strong>Speaker:</strong> <a href="https://www.ccny.cuny.edu/profiles/rosario-gennaro" target="_blank" rel="noopener">Prof. Rosario Gennaro</a> (CUNY)</p>
     <p><strong>Title:</strong> Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference</p>
     <p><strong>Date:</strong> July 8, 2026 @ 3:00 PM EDT</p>
-    <p><strong>Zoom:</strong> <a href="https://nyu.zoom.us/j/9039771306" target="_blank" rel="noopener">Join the talk on Zoom</a></p>
+    <p><a href="https://youtu.be/UMSuNge2ZII?si=vfPv7Fwc8UvwEuCt" target="_blank" rel="noopener">Watch on YouTube</a></p>
     <p>
       <strong>Abstract:</strong>
       When large AI models are deployed as cloud-based services, clients have no guarantee that responses are correct or were produced by the intended model. Running inference locally is often infeasible for large models, and existing cryptographic proof systems, while offering strong correctness guarantees, introduce prohibitive prover overhead. This talk presents a verifiable inference framework that replaces full cryptographic proofs with a lightweight sampling-based approach grounded in statistical properties of neural networks. The prover commits to the execution trace of inference via Merkle-tree-based vector commitments and opens only a small number of entries along randomly sampled paths from output to input. The resulting protocol trades soundness for efficiency, making it well-suited to auditing and large-scale deployment settings where repeated queries amplify detection probability. Experimental results show several orders of magnitude reduction in proving time compared to state-of-the-art cryptographic proof systems, while maintaining practical verification guarantees.
