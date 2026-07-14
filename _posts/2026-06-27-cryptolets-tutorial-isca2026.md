@@ -12,6 +12,12 @@ content_col_classes: col-md-11 col-lg-10 order-lg-first mx-auto
 **Date:** June 27, 2026 (Saturday afternoon, half day)  
 **Location:** ISCA 2026 Conference Venue, Room 301B
 
+<div style="margin: 2rem 0; padding: 1.25rem 1.5rem; border-left: 5px solid #00629b; background: #eef5fb; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+  <h3 style="margin-top: 0;">Watch the Tutorial</h3>
+  <p style="margin-bottom: 0.75rem;">The Cryptolets ISCA 2026 tutorial recordings are available on YouTube.</p>
+  <a href="https://www.youtube.com/watch?v=ZGJ4smSP6Xw&list=PLSvH1j6oReOs" target="_blank" rel="noopener" class="btn btn-outline-primary">Watch the tutorial playlist</a>
+</div>
+
 <h3 style="margin-top: 2rem; margin-bottom: 2rem;">Schedule</h3>
 
 <div class="col-md-12">
