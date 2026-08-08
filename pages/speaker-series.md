@@ -12,6 +12,17 @@ permalink: /speaker-series/
 
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <h2 style="margin-top: 0;">Speaker Series Talk 05</h2>
+    <p><strong>Speaker:</strong> <a href="https://tjo.is/" target="_blank" rel="noopener">Prof. Tushar Jois</a> (City College of New York / CUNY Graduate Center)</p>
+    <p><strong>Title:</strong> ThriftyMPC: Reducing the Cost of Large-Scale MPC in the Cloud</p>
+    <p><strong>Date:</strong> August 12, 2026</p>
+    <p><strong>Paper:</strong> <a href="https://eprint.iacr.org/2026/977" target="_blank" rel="noopener">IACR ePrint 2026/977</a></p>
+    <p>
+      <strong>Abstract:</strong>
+      Cloud computing has become the standard for large-scale computation, offering elastic scalability and on-demand resources that exceed typical on-premise capabilities. However, many large-scale computations over sensitive data, such as genome-wide association studies (GWAS), face significant barriers to cloud adoption due to privacy concerns and regulatory constraints. While cryptographic primitives like multi-party computation can alleviate these concerns through provable privacy guarantees, their substantial communication and computational overhead can make cloud deployment cost-prohibitive. To address both privacy and cost constraints, we present ThriftyMPC. ThriftyMPC is a framework that leverages spot instances, ephemeral cloud compute at reduced rates, to enable cost-effective, privacy-preserving computation at scale by combining secure multi-party computation with preemption-tolerant execution. We introduce a formal model for multi-party execution under ephemeral compute conditions, demonstrate how ThriftyMPC handles spot instance preemptions while maintaining cryptographic security guarantees, and provide a formal discussion of these guarantees. Our evaluations on realistic GWAS-inspired workloads over the Google Cloud Platform demonstrate robust execution despite spot instance churn, and show significant cost reduction compared to the state-of-the-art multi-party computation framework, MP-SPDZ, run traditionally using on-demand instances. We show that leveraging multi-party computation on spot instances makes privacy-preserving computation economically viable, enabling organizations to harness the cloud for sensitive workloads previously confined to isolated, on-premise deployments.
+    </p>
+  </div>
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk 04</h2>
     <p><strong>Speaker:</strong> <a href="https://www.ccny.cuny.edu/profiles/rosario-gennaro" target="_blank" rel="noopener">Prof. Rosario Gennaro</a> (CUNY)</p>
     <p><strong>Title:</strong> Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference</p>
