@@ -6,8 +6,10 @@ permalink: /speaker-series/
 
 <div style="margin-top: 1rem; padding: 1rem 1.25rem; border-left: 4px solid #1f4f7a; background: #eef5fb; border-radius: 8px;">
   <strong>Interest in cryptographic hardware?</strong> Subscribe to future talks by sending an email to
-  <a href="mailto:cryptolets+subscribe@googlegroups.com">cryptolets+subscribe@googlegroups.com</a>. You can also watch past talks on the
+  <a href="mailto:cryptolets+subscribe@googlegroups.com">cryptolets+subscribe@googlegroups.com</a>. 
+  <p>You can also watch past talks on the
   <a href="https://www.youtube.com/watch?v=2lh_tB5UqXA&list=PL187zrvJshWlsHwoIWj6_r-GylHd1nMWG&pp=0gcJCeECOCosWNinsAgC" target="_blank" rel="noopener">YouTube playlist</a>.
+  </p>
 </div>
 
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
@@ -16,6 +18,7 @@ permalink: /speaker-series/
     <p><strong>Speaker:</strong> <a href="https://tjo.is/" target="_blank" rel="noopener">Prof. Tushar Jois</a> (City College of New York / CUNY Graduate Center)</p>
     <p><strong>Title:</strong> ThriftyMPC: Reducing the Cost of Large-Scale MPC in the Cloud</p>
     <p><strong>Date:</strong> August 12, 2026</p>
+    <p><a href="https://www.youtube.com/watch?v=7B8pDwJsQ3M&list=PL187zrvJshWlsHwoIWj6_r-GylHd1nMWG" target="_blank" rel="noopener">Watch on YouTube</a></p>
     <p><strong>Paper:</strong> <a href="https://eprint.iacr.org/2026/977" target="_blank" rel="noopener">IACR ePrint 2026/977</a></p>
     <p>
       <strong>Abstract:</strong>
