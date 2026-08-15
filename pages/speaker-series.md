@@ -8,7 +8,7 @@ permalink: /speaker-series/
   <strong>Interest in cryptographic hardware?</strong> Subscribe to future talks by sending an email to
   <a href="mailto:cryptolets+subscribe@googlegroups.com">cryptolets+subscribe@googlegroups.com</a>. 
   <p>You can also watch past talks on the
-  <a href="https://www.youtube.com/watch?v=2lh_tB5UqXA&list=PL187zrvJshWlsHwoIWj6_r-GylHd1nMWG&pp=0gcJCeECOCosWNinsAgC" target="_blank" rel="noopener">YouTube playlist</a>.
+  <a href="https://www.youtube.com/playlist?list=PL187zrvJshWlsHwoIWj6_r-GylHd1nMWG" target="_blank" rel="noopener">YouTube playlist</a>.
   </p>
 </div>
 
