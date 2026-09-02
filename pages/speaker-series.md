@@ -14,6 +14,26 @@ permalink: /speaker-series/
 
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <h2 style="margin-top: 0;">Speaker Series Talk 06</h2>
+    <p><strong>Speaker:</strong> <a href="https://engineering.nyu.edu/faculty/siddharth-garg" target="_blank" rel="noopener">Prof. Siddharth Garg</a> (NYU)</p>
+    <p><strong>Title:</strong> High(er)-Level Synthesis: Agentic AI for Complex Hardware Design</p>
+    <p><strong>Date:</strong> September 9, 2026 @ 3:00 PM EDT</p>
+    <p><strong>Zoom:</strong> <a href="https://nyu.zoom.us/j/9039771306" target="_blank" rel="noopener">Join the talk on Zoom</a></p>
+    <p>
+      <strong>Abstract:</strong>
+      High-Level Synthesis (HLS) has raised the abstraction level of hardware design, but building high-performance accelerators still requires substantial hardware expertise. This challenge becomes especially acute for complex cryptographic protocols, where implementations may involve large arithmetic kernels, intricate control and data movement, rapidly evolving algorithms, and demanding performance and security constraints.
+    </p>
+    <p>
+      In this talk, I will discuss our recent work on using large language models and reasoning agents to further raise the abstraction level of HLS. We explore how AI can transform software into synthesizable implementations, reason about hardware-oriented code transformations, introduce and tune HLS directives, and iteratively improve designs using feedback from synthesis tools. We then move toward agentic HLS flows in which reasoning models interact with compilers, synthesis tools, and optimization techniques to explore implementations rather than simply generate code in a single pass.
+    </p>
+    <p>
+      I will use complex cryptographic protocols as a motivating case study for what these capabilities could enable. Emerging protocols, from zero-knowledge proofs and fully homomorphic encryption to post-quantum cryptography, contain sophisticated computations that are difficult to translate into efficient hardware by hand. AI-assisted HLS offers the possibility of turning high-level algorithmic descriptions into specialized architectures while automatically navigating transformations, parallelism, memory organization, and performance-area tradeoffs.
+    </p>
+    <p>
+      More broadly, these results point toward an AI-native hardware design methodology in which designers increasingly specify algorithms, constraints, and intent, while intelligent agents collaborate with established EDA tools to construct and optimize the implementation. I will discuss the limitations of today's models, why grounding in compiler and synthesis feedback is essential, and what will be required before such systems can reliably build the complex hardware underlying future cryptographic and computing systems.
+    </p>
+  </div>
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk 05</h2>
     <p><strong>Speaker:</strong> <a href="https://tjo.is/" target="_blank" rel="noopener">Prof. Tushar Jois</a> (City College of New York / CUNY Graduate Center)</p>
     <p><strong>Title:</strong> ThriftyMPC: Reducing the Cost of Large-Scale MPC in the Cloud</p>
