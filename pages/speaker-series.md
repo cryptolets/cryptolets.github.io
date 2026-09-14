@@ -18,7 +18,7 @@ permalink: /speaker-series/
     <p><strong>Speaker:</strong> <a href="https://engineering.nyu.edu/faculty/siddharth-garg" target="_blank" rel="noopener">Prof. Siddharth Garg</a> (NYU)</p>
     <p><strong>Title:</strong> High(er)-Level Synthesis: Agentic AI for Complex Hardware Design</p>
     <p><strong>Date:</strong> September 9, 2026 @ 3:00 PM EDT</p>
-    <p><strong>Zoom:</strong> <a href="https://nyu.zoom.us/j/9039771306" target="_blank" rel="noopener">Join the talk on Zoom</a></p>
+    <p><a href="https://youtu.be/AVcBSKdD9bc" target="_blank" rel="noopener">Watch on YouTube</a></p>
     <p>
       <strong>Abstract:</strong>
       High-Level Synthesis (HLS) has raised the abstraction level of hardware design, but building high-performance accelerators still requires substantial hardware expertise. This challenge becomes especially acute for complex cryptographic protocols, where implementations may involve large arithmetic kernels, intricate control and data movement, rapidly evolving algorithms, and demanding performance and security constraints.
