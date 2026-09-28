@@ -17,37 +17,49 @@
 
 - name: Thierry Tambe
   role: Major PI
+  description: Stanford University
   googlescholar: Sq2uWhYAAAAJ&hl=en
 - name: Caroline Trippel
   role: Major PI
+  description: Stanford University
   googlescholar: 5yqgCREAAAAJ&hl=en
 - name: Rosario Gennaro
   role: Major PI
+  description: The City College of New York
   googlescholar: YAZHNDUAAAAJ&hl=en
 - name: Tushar Jois
   role: Major PI
+  description: The City College of New York
   googlescholar: GKbceiUAAAAJ
 - name: Brandon Reagen
   role: Major PI
+  description: New York University
   googlescholar: cO2uYoAAAAAJ&hl=en
 - name: Siddharth Garg
   role: Major PI
+  description: New York University
   googlescholar: Yf8OqQQAAAAJ&hl=en
 - name: Austin Rovinski
   role: Major PI
+  description: New York University
   googlescholar: DG0B2xUAAAAJ&hl=en
 - name: Ramesh Karri
   role: Major PI
+  description: New York University
   googlescholar: o60TaTEAAAAJ&hl=en
 - name: Warren Savage
   role: Major PI
+  description: University of Maryland, Applied Research Laboratory for Intelligence and Security
   linkedin: warren-savage-80a167
 - name: Alhad Daftardar
   role: Student
+  description: New York University
   googlescholar: 4KqbcFkAAAAJ&hl=en
 - name: Jianqiao Mo
   role: Student
+  description: New York University
   googlescholar: rydgKnMAAAAJ&hl=en
 - name: Gaurav Kuwar
   role: Student
+  description: New York University
   linkedin: gauravkuwar

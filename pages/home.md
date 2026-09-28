@@ -115,6 +115,25 @@ permalink: /
 </div>
 
 <div class="mt-4">
+  <h2>Repositories</h2>
+  <ul>
+    <li>
+      <a href="https://github.com/cryptolets" target="_blank" rel="noopener">Cryptolets GitHub organization</a>
+      &mdash; all open-source Cryptolets repositories.
+    </li>
+    <li>
+      <a href="https://github.com/cryptolets/cryptolets" target="_blank" rel="noopener">cryptolets</a>
+      &mdash; the main open-source hardware IP repository for cryptographic computing.
+    </li>
+    <li>
+      <a href="https://github.com/cryptolets/CLIPGen" target="_blank" rel="noopener">CLIPGen</a>
+      &mdash; chiplet link IP generation and PPA modeling
+      (upstream at <a href="https://github.com/realise-lab/CLIPGen" target="_blank" rel="noopener">realise-lab/CLIPGen</a>).
+    </li>
+  </ul>
+</div>
+
+<div class="mt-4">
   <h2>Reference</h2>
   <p>
     Cryptolets was originally supported through

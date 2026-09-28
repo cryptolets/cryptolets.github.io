@@ -13,7 +13,9 @@
 # - id: bazzano_2021 # required, must be a string (e.g., quote a pmid as "00000000")
 #   date: 2021-09-30 # the day the publication appeared
 #   doi:   10.1145/0000000.0000000 # can be missing or null
-#   arxiv: 2401.01234 # can be missing or null
+#   arxiv: "2401.01234" # can be missing or null; ALWAYS quote it, otherwise YAML
+#                       # reads it as a number and drops any trailing zero
+#                       # (e.g. 2408.05890 becomes 2408.0589 and the link breaks)
 #   authors:  
 #     - Last AA
 #     - Lastt B
@@ -26,15 +28,68 @@
 #   badges:
 #     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
       
+# TODO: the `date` fields on the Locus and LLM4SecurePQC entries below are placeholders
+# chosen to produce the requested newest-first ordering (Locus, LLM4PQC, LLM4SecurePQC).
+# Replace each with the actual publication/presentation date once confirmed.
+
+- id: locus_2026
+  date:  2026-11-01 # TODO: confirm actual ICCAD 2026 presentation date
+  doi:  null
+  arxiv: "2609.18846"
+  authors:
+    - Gaurav Kuwar
+    - Alhad Daftardar
+    - Jianqiao Mo
+    - Siddharth Garg
+    - Brandon Reagen
+  title:    Locus - A Framework for Exploring and Optimizing Point Addition Hardware for Zero-Knowledge Proofs
+  journal:  IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  year:     2026
+  url: https://github.com/cryptolets/cryptolets/tree/locus
+
+- id: llm4pqc_2026
+  date:  2026-04-20
+  doi:  10.23919/DATE69613.2026.11539440
+  arxiv: null
+  authors:
+    - Buddhi Perera
+    - Zeng Wang
+    - Weihua Xiao
+    - Mohammed Nabeel
+    - Ozgur Sinanoglu
+    - Johann Knechtel
+    - Ramesh Karri
+  title:    LLM4PQC - Accurate and Efficient Synthesis of PQC Cores by Feedback-Driven LLMs (Focus Session)
+  journal:  Design, Automation & Test in Europe Conference (DATE)
+  year:     2026
+  url: null
+
+- id: llm4securepqc_2026
+  date:  2026-03-01 # TODO: confirm actual VTS 2026 presentation date
+  doi:  10.1109/VTS69484.2026.11563321
+  arxiv: null
+  authors:
+    - M. Nabeel
+    - B. Perera
+    - Z. Wang
+    - O. Sinanoglu
+    - J. Knechtel
+    - R. Karri
+  title:    LLM4SecurePQC - LLM-Driven and Side-Channel Resilient Hardware Synthesis of PQC Cores
+  journal:  IEEE 44th VLSI Test Symposium (VTS)
+  year:     2026
+  url: null
+
 - id: zkphire_2026
   date:  2026-01-31
   doi:  null
-  arxiv: 2508.16738
-  authors:  
+  arxiv: "2508.16738"
+  authors:
     - Alhad Daftardar
     - Jianqiao Mo
     - Joey Ah-kiow
     - Benedikt Bünz
+    - Ramesh Karri
     - Siddharth Garg
     - Brandon Reagen
   title:    zkPHIRE - A Programmable Accelerator for ZKPs over HIgh-degRee, Expressive Gates
@@ -46,7 +101,7 @@
   section: prior_relevant_work
   date:  2025-10-19
   doi:  10.1145/3768725.3768737
-  arxiv: 2507.16793
+  arxiv: "2507.16793"
   authors:
     - Jianqiao Mo
     - Alhad Daftardar
@@ -64,7 +119,7 @@
   section: prior_relevant_work
   date:  2025-06-21
   doi:  10.1145/3695053.3731021
-  arxiv: 2504.06211
+  arxiv: "2504.06211"
   authors:
     - Alhad Daftardar
     - Jianqiao Mo
@@ -82,7 +137,7 @@
   section: prior_relevant_work
   date:  2024-10-14
   doi:  10.1145/3656019.3676898
-  arxiv: 2408.05890
+  arxiv: "2408.05890"
   authors:
     - Alhad Daftardar
     - Brandon Reagen
