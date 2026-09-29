@@ -47,6 +47,37 @@
   year:     2026
   url: https://github.com/cryptolets/cryptolets/tree/locus
 
+- id: zkduel_2026
+  date:  2026-10-31 # TODO: confirm actual HASP 2026 workshop date
+  doi:  null
+  arxiv: null
+  authors:
+    - Samarth Narang
+    - Alhad Daftardar
+    - Brandon Reagen
+  title:    zkDuel - Characterizing SumCheck Prover Kernels across GPU Programming Models
+  journal:  International Workshop on Hardware and Architectural Support for Security and Privacy (HASP)
+  year:     2026
+  url: https://github.com/snarang181/zk-duel
+
+- id: proofs_meet_hardware_2026
+  date:  2026-06-15
+  doi:  null
+  arxiv: "2606.16146"
+  authors:
+    - Jianqiao Mo
+    - Alhad Daftardar
+    - Barath GaneshKumar
+    - Kaiyue Guo
+    - Hong Wang
+    - Benedikt Bünz
+    - Siddharth Garg
+    - Brandon Reagen
+  title:    When Proofs Meet Hardware - Comparing NTT and SumCheck in Zero-Knowledge Systems
+  journal:  arXiv preprint
+  year:     2026
+  url: https://arxiv.org/abs/2606.16146
+
 - id: llm4pqc_2026
   date:  2026-04-20
   doi:  10.23919/DATE69613.2026.11539440
