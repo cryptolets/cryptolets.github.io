@@ -1,0 +1,31 @@
+# Board members listed below appear on the /board/ page, in this order.
+# Logos live in assets/theme/images/board/. Use a dark-on-transparent or
+# dark-on-white version so the logo is readable on the page's white tiles.
+
+- name: GlobalFoundries
+  logo: /assets/theme/images/board/globalfoundries.svg
+  url: https://gf.com/
+- name: Google
+  logo: /assets/theme/images/board/google.svg
+  url: https://www.google.com/
+- name: LG
+  logo: /assets/theme/images/board/lg.svg
+  url: https://www.lg.com/
+- name: Intel
+  logo: /assets/theme/images/board/intel.svg
+  url: https://www.intel.com/
+- name: Belfort Labs
+  logo: /assets/theme/images/board/belfort.svg
+  url: https://belfortlabs.com/
+- name: Duality Technologies
+  logo: /assets/theme/images/board/duality.svg
+  url: https://dualitytech.com/
+- name: NVIDIA
+  logo: /assets/theme/images/board/nvidia.svg
+  url: https://www.nvidia.com/
+- name: CipherSonic
+  logo: /assets/theme/images/board/ciphersonic.png
+  url: https://www.ciphersoniclabs.io/
+- name: Galois
+  logo: /assets/theme/images/board/galois.png
+  url: https://www.galois.com/
