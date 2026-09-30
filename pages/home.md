@@ -123,7 +123,7 @@ permalink: /
     </li>
     <li>
       <a href="https://github.com/cryptolets/cryptolets/tree/tessera" target="_blank" rel="noopener">Tessera</a>
-      &mdash; an open-source framework and hardware IP library for cryptographic kernels, with automated design space exploration from modular arithmetic to elliptic curve point operations.
+      &mdash; an open-source framework and hardware IP library for cryptographic kernels, with automated, large-scale design space exploration.
     </li>
     <li>
       <a href="https://github.com/cryptolets/CLIPGen" target="_blank" rel="noopener">CLIPGen</a>
