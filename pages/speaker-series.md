@@ -14,6 +14,17 @@ permalink: /speaker-series/
 
 <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
   <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <h2 style="margin-top: 0;">Speaker Series Talk 07</h2>
+    <p><strong>Speaker:</strong> <a href="https://profiles.stanford.edu/thierry-tambe" target="_blank" rel="noopener">Prof. Thierry Tambe</a> (Stanford)</p>
+    <p><strong>Title:</strong> CURIE: A Cycle-Accurate and Synthesizable UCIe Interface for the Agile Design and Co-Simulation of Chiplets</p>
+    <p><strong>Date:</strong> October 28, 2026 @ 1:00 PM EDT</p>
+    <p><strong>Zoom:</strong> <a href="https://nyu.zoom.us/j/9039771306" target="_blank" rel="noopener">Join the talk on Zoom</a></p>
+    <p>
+      <strong>Abstract:</strong>
+      Chiplet-based systems enable heterogeneous integration and independent scaling of compute and memory, but evaluating inter-die communication requires models that capture both cycle-level behavior and hardware implementation constraints. Existing UCIe models are mostly proprietary and sacrifice fidelity for abstraction, limiting quantitative system-level exploration and the path to hardware. We present CURIE (Configurable UCIe for Rapid Integration and Design Space Exploration), an open-source, synthesizable, cycle-accurate SystemC/HLS implementation of a UCIe 2.0 controller for agile design and co-simulation of chiplet-based systems. CURIE exposes configurable architectural parameters for exploring performance-efficiency tradeoffs and decouples application-specific protocol semantics from the UCIe transport layer, so custom packet layouts can be integrated, making it a reusable die-to-die building block across heterogeneous configurations. We demonstrate workload-aware exploration of disaggregated configurations by simulating a host processor integrated with an AI accelerator, while retaining a direct path to HLS-generated RTL. We synthesize CURIE in 16-nm FinFET to characterize its overhead, verify it against the specification at each controller layer and end to end, and further validate it through interoperability with an independently developed UCIe controller. SystemC AMS integration additionally captures channel-level effects. CURIE thus bridges cycle-accurate system exploration and synthesizable UCIe hardware for evaluating multi-chip systems.
+    </p>
+  </div>
+  <div style="width: 100%; border: 1px solid #ccc; border-radius: 10px; padding: 1.5rem; background: #f9f9f9; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
     <h2 style="margin-top: 0;">Speaker Series Talk 06</h2>
     <p><strong>Speaker:</strong> <a href="https://engineering.nyu.edu/faculty/siddharth-garg" target="_blank" rel="noopener">Prof. Siddharth Garg</a> (NYU)</p>
     <p><strong>Title:</strong> High(er)-Level Synthesis: Agentic AI for Complex Hardware Design</p>
